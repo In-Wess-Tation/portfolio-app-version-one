@@ -1,3 +1,5 @@
+/* General styling */
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,49 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* Home */
+
+main {
+  padding: 1rem;
+  color: #4BA3C3;
+  background-color: black;
+}
+main h1 {
+  color: #CCE6F4;
+}
+section {
+  padding-bottom: 3rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+}
+.grid img {
+  max-width: 10rem;
+  margin: auto;
+  display: block;
+}
+
+
+
+
+
+
+
+
+/* Info Page */
+
+
+
+
+
+
+
+
+
+/* Gallery */
