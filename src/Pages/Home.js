@@ -1,3 +1,10 @@
+import { Link } from "react-router-dom";
+import styled from "@emotion/styled";
+
+const StyledLink = styled(Link)`
+  color: #4BA3C3;
+`;
+
 
 
 const Home = () => {
@@ -11,12 +18,49 @@ const Home = () => {
             </article>
         </section>
 
-        <section className="grid">
-        <img className='' src="/img/moterbike-2.png" alt="Artiwork of a moterbike cyclist" />
-          <img className='' src="/img/eye.png" alt="Artiwork of a blue eye" />
-          <img className='' src="/img/sundown-2.png" alt="Artwork of a sundown" />
-          <img className='' src="/img/city-me.png" alt="Artwork of creator" />
+        <section>
+            <h1>Dazzling Masterpieces</h1>
+            <article className="grid">
+                <img className='' src="/img/moterbike-2.png" alt="Artiwork of a moterbike cyclist" />
+                <img className='' src="/img/eye.png" alt="Artiwork of a blue eye" />
+                <img className='' src="/img/sundown-2.png" alt="Artwork of a sundown" />
+                <img className='' src="/img/city-me.png" alt="Artwork of creator" />
+            </article>
         </section>
+
+        <section>
+            <h1>Websites</h1>
+            <article>
+                <article className="card">
+                    <img className='website_img' src="/img/MyMovie.png" alt="MY movie Website" />
+                    <h2>My Movie Webpage</h2>
+                    <p>This website was my first attempt at using an API fully on a whole website. It's made with clean JavaScript and normal CSS.</p>
+                    <StyledLink href="https://mymovies-wess.netlify.app/">Link to MyMovie</StyledLink>
+                </article>
+                <article className="card">
+                    <img className='website_img' src="/img/movibes.png" alt="Movie Website" />
+                    <h2>Movibes Webpage</h2>
+                    <p>This website is a sequal to my first movie site, MyMovie. This site is made with Next.js and Tailwind CSS.</p>
+                    <StyledLink href="https://weslyn-movibes.netlify.app/">Link to Movibes</StyledLink>
+                </article>
+                <article className="card">
+                    <img className='website_img' src="/img/Portfolio4.png" alt="Fourth portfolio Website" />
+                    <h2>My 4th Portolio</h2>
+                    <p>This is my fourth attempt at makin my portfolio. This webpage is made with vanilla React and CSS components.</p>
+                    <StyledLink href="https://weslyn-portfolio-4.netlify.app/">Link to 4th Portfolio</StyledLink>
+                </article>
+            </article>
+        </section>
+
+        <section>
+        <article>
+          <h1>Ready to Dive into Weslyn's World?</h1>
+          <div className='home_btn'>
+          <button><Link href="/info">Info Page</Link></button>
+          <button><Link href="/gallery">Gallery</Link></button>
+          </div>
+        </article>
+      </section>
         </>
      );
 }

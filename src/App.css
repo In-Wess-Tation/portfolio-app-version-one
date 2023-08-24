@@ -66,7 +66,22 @@ section {
   display: block;
 }
 
-
+.card {
+  border: 0.2rem solid white;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.website_img {
+  max-width: 20rem;
+  margin: auto;
+  display: block;
+}
+.home_btn button{
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  margin-right: 1rem;
+}
 
 
 
