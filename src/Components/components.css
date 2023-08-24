@@ -1,0 +1,20 @@
+header {
+    background-color: #BA324F;
+    color: #4BA3C3;
+    padding: 3rem;
+}
+.header_img {
+    max-width: 15rem;
+    margin: auto;
+    display: block;
+}
+.logo {
+    max-width: 6rem;
+    border-radius: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
