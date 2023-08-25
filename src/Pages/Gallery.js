@@ -11,9 +11,9 @@ const Gallery = () => {
 
         <section className="gallery_png">
                 <img src="/img/pink-me-2.png" alt="Pink artwork" />
-                <img src="/img/bubblegum-2.png" alt="Pink artwork" />
-                <img src="/img/dis-tattoo-2.png" alt="Pink artwork" />
-                <img src="/img/Azrael1.png" alt="Pink artwork" />
+                <img src="/img/bubblegum-2.png" alt="Bubblegum artwork" />
+                <img src="/img/dis-tattoo-2.png" alt="Tattoo artwork" />
+                <img src="/img/Azrael1.png" alt="D&D artwork" />
         </section>
 
         <section className="gallery_png grid">
