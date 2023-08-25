@@ -148,7 +148,7 @@ section {
 }
 .grid_two {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 90%;
   grid-template-rows: 1fr 1fr 1fr;
 }
 .flex {
