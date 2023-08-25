@@ -150,6 +150,7 @@ section {
   display: grid;
   grid-template-columns: 90%;
   grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
 }
 .flex {
   display: flex;
