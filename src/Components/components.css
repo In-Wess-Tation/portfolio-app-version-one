@@ -16,5 +16,10 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+}
+#navbar a.active {
+    color: #4BA3C3;
+}
+#navbar p.pending {
+    color: white;
 }

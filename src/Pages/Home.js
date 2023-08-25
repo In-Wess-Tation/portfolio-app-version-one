@@ -4,6 +4,11 @@ import styled from "@emotion/styled";
 const StyledLink = styled(Link)`
   color: #4BA3C3;
 `;
+const HomeLink = styled(Link)`
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+`;
 
 
 
@@ -56,8 +61,8 @@ const Home = () => {
         <article>
           <h1>Ready to Dive into Weslyn's World?</h1>
           <div className='home_btn'>
-          <button><Link href="/info">Info Page</Link></button>
-          <button><Link href="/gallery">Gallery</Link></button>
+          <button><HomeLink to={"/info"}>Info Page</HomeLink></button>
+          <button className="blue_btn"><HomeLink to={"/gallery"}>Gallery</HomeLink></button>
           </div>
         </article>
       </section>

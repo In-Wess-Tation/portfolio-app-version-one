@@ -81,6 +81,10 @@ section {
   padding-inline: 1rem;
   padding-block: 0.5rem;
   margin-right: 1rem;
+  border-radius: 0.5rem;
+}
+.blue_btn {
+  background-color: #CCE6F4;
 }
 
 
