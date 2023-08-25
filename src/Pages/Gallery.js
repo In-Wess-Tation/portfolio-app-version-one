@@ -35,11 +35,11 @@ const Gallery = () => {
             <img src="/img/green-me-2.png" alt="Drawing of one of my original characters" />
         </section>
 
-        <section className="gallery_png">
-            <img src="/img/art-me.png" alt="Tzekel Kan drawing" />
-            <img src="/img/book-shop.png" alt="Blue eye artwork" />
-            <img src="/img/route66.jpg" alt="Pansexual drawing" />
-            <img src="/img/city-me.png" alt="D&D drawing" />
+        <section className="gallery_png grid">
+            <img src="/img/art-me.png" alt="Drawing of Weslyn" />
+            <img src="/img/book-shop.png" alt="Bookshop artwork" />
+            <img src="/img/route66.jpg" alt="Drawing of route 66" />
+            <img src="/img/city-me.png" alt="City drawing" />
         </section>
 
         <section className="gallery_png flex">
