@@ -128,3 +128,31 @@ section {
 
 
 /* Gallery */
+
+.gallery_png img {
+  max-width: 10rem;
+  margin: auto;
+  display: block;
+  padding-bottom: 1rem;
+}
+.gallery_png_w img {
+  max-width: 20rem;
+  margin: auto;
+  display: block;
+  padding-bottom: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.grid_two {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.flex {
+  display: flex;
+}
+
+
