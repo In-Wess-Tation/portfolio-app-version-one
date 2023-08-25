@@ -35,7 +35,7 @@ const Gallery = () => {
             <img src="/img/green-me-2.png" alt="Drawing of one of my original characters" />
         </section>
 
-        <section className="gallery_png grid">
+        <section className="gallery_png">
             <img src="/img/art-me.png" alt="Tzekel Kan drawing" />
             <img src="/img/book-shop.png" alt="Blue eye artwork" />
             <img src="/img/route66.jpg" alt="Pansexual drawing" />
