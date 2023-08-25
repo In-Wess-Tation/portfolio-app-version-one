@@ -23,3 +23,21 @@ nav {
 #navbar p.pending {
     color: white;
 }
+
+
+
+footer {
+    display: flex;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    background-color: rgb(67, 53, 92);
+    color: #4BA3C3;
+    gap: 2rem;
+}
+footer p {
+    margin: 0;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+}

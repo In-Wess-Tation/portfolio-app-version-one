@@ -94,10 +94,35 @@ section {
 
 /* Info Page */
 
+.BG_white {
+  background-color: white;
+  margin: -1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: #215669;
+}
+.BG_white h1 {
+  color: #4BA3C3;
+}
+.me_jpg {
+  max-width: 15rem;
+  margin: auto;
+  display: block;
+}
 
-
-
-
+.white_box {
+  border: 0.2rem solid #CCE6F4;
+  color: #61dafb;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+.code_png {
+  max-width: 20rem;
+  margin: auto;
+  display: block;
+}
 
 
 
